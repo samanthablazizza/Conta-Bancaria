@@ -24,6 +24,7 @@ namespace contaBancaria.Model
             this.titular = titular;
             this.saldo = saldo;
         }
+        public Conta() { }//Poliformismo de Sobrecarga
 
         /*Métodos Get e Set*/
         public int GetNumero()//o Método Get é usado para exibir o conteúdo, caso não queira exibir é só não criá-lo
@@ -75,7 +76,7 @@ namespace contaBancaria.Model
         {
             this.saldo = saldo;
         }
-        public bool Sacar(decimal valor)
+        public virtual bool Sacar(decimal valor)
         {
             if (this.saldo < valor)
             {
@@ -93,7 +94,7 @@ namespace contaBancaria.Model
         }
 
 
-        public void Visualizar()
+        public virtual void Visualizar()
         {
             string tipo = "";
 
@@ -113,7 +114,7 @@ namespace contaBancaria.Model
             Console.WriteLine("************************************");
             Console.WriteLine($"Número da conta: {this.numero}");
             Console.WriteLine($"Número da agência: {this.agencia}");
-            Console.WriteLine($"Tipo da conta: {this.numero}");
+            Console.WriteLine($"Tipo da conta: {this.tipo}");
             Console.WriteLine($"Titular: {this.titular}");
             Console.WriteLine($"Saldo: " + (this.saldo).ToString("C"));
         }

@@ -12,3 +12,17 @@ C:\Users\sa_bl\OneDrive\Área de Trabalho\conta.Bancária\contaBancaria\obj\Debu
 C:\Users\sa_bl\OneDrive\Área de Trabalho\conta.Bancária\contaBancaria\obj\Debug\net7.0\contaBancaria.pdb
 C:\Users\sa_bl\OneDrive\Área de Trabalho\conta.Bancária\contaBancaria\obj\Debug\net7.0\contaBancaria.genruntimeconfig.cache
 C:\Users\sa_bl\OneDrive\Área de Trabalho\conta.Bancária\contaBancaria\obj\Debug\net7.0\ref\contaBancaria.dll
+C:\Users\sa_bl\OneDrive\Área de Trabalho\contaBancária\contaBancaria\bin\Debug\net7.0\contaBancaria.exe
+C:\Users\sa_bl\OneDrive\Área de Trabalho\contaBancária\contaBancaria\bin\Debug\net7.0\contaBancaria.deps.json
+C:\Users\sa_bl\OneDrive\Área de Trabalho\contaBancária\contaBancaria\bin\Debug\net7.0\contaBancaria.runtimeconfig.json
+C:\Users\sa_bl\OneDrive\Área de Trabalho\contaBancária\contaBancaria\bin\Debug\net7.0\contaBancaria.dll
+C:\Users\sa_bl\OneDrive\Área de Trabalho\contaBancária\contaBancaria\bin\Debug\net7.0\contaBancaria.pdb
+C:\Users\sa_bl\OneDrive\Área de Trabalho\contaBancária\contaBancaria\obj\Debug\net7.0\contaBancaria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sa_bl\OneDrive\Área de Trabalho\contaBancária\contaBancaria\obj\Debug\net7.0\contaBancaria.AssemblyInfoInputs.cache
+C:\Users\sa_bl\OneDrive\Área de Trabalho\contaBancária\contaBancaria\obj\Debug\net7.0\contaBancaria.AssemblyInfo.cs
+C:\Users\sa_bl\OneDrive\Área de Trabalho\contaBancária\contaBancaria\obj\Debug\net7.0\contaBancaria.csproj.CoreCompileInputs.cache
+C:\Users\sa_bl\OneDrive\Área de Trabalho\contaBancária\contaBancaria\obj\Debug\net7.0\contaBancaria.dll
+C:\Users\sa_bl\OneDrive\Área de Trabalho\contaBancária\contaBancaria\obj\Debug\net7.0\refint\contaBancaria.dll
+C:\Users\sa_bl\OneDrive\Área de Trabalho\contaBancária\contaBancaria\obj\Debug\net7.0\contaBancaria.pdb
+C:\Users\sa_bl\OneDrive\Área de Trabalho\contaBancária\contaBancaria\obj\Debug\net7.0\contaBancaria.genruntimeconfig.cache
+C:\Users\sa_bl\OneDrive\Área de Trabalho\contaBancária\contaBancaria\obj\Debug\net7.0\ref\contaBancaria.dll

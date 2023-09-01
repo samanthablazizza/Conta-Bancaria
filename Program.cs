@@ -8,16 +8,30 @@ namespace contaBancaria
         static void Main(string[] args)
         {
             int opcao;
-            Conta c1 = new Conta(1, 123, 1, "Gaspar", 1000000.00M);
+            Conta c1 = new Conta(123, 10, 1, "Gaspar", 1000000.00M);
 
             c1.Visualizar();
-            c1.SetNumero(345);
-            c1.Visualizar();
-
             c1.Sacar(1000);
             c1.Visualizar();
             c1.Depositar(5000);
             c1.Visualizar();
+
+            ContaCorrente cc1 = new ContaCorrente(354, 20, 1, "Samantha", 100000000.00M, 1000.00M);
+
+            cc1.Visualizar();
+            cc1.Sacar(200000000.00M);
+            cc1.Visualizar();
+            cc1.Depositar(5000);
+            cc1.Visualizar();
+
+            ContaPoupanca cp1 = new ContaPoupanca(678, 30, 2, "Theo", 1000, 100, 06);
+
+            cp1.Visualizar();
+            cp1.Sacar(1200);
+            cp1.Visualizar();
+            cp1.Depositar(50);
+            cp1.Visualizar();
+            
 
             while (true)
             {
