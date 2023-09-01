@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sa_bl\\OneDrive\\Área de Trabalho\\conta.Bancária\\contaBancaria\\contaBancaria.csproj",
+      "projectUniqueName": "C:\\Users\\sa_bl\\OneDrive\\Área de Trabalho\\contaBancária\\contaBancaria\\contaBancaria.csproj",
       "projectName": "contaBancaria",
-      "projectPath": "C:\\Users\\sa_bl\\OneDrive\\Área de Trabalho\\conta.Bancária\\contaBancaria\\contaBancaria.csproj",
+      "projectPath": "C:\\Users\\sa_bl\\OneDrive\\Área de Trabalho\\contaBancária\\contaBancaria\\contaBancaria.csproj",
       "packagesPath": "C:\\Users\\sa_bl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sa_bl\\OneDrive\\Área de Trabalho\\conta.Bancária\\contaBancaria\\obj\\",
+      "outputPath": "C:\\Users\\sa_bl\\OneDrive\\Área de Trabalho\\contaBancária\\contaBancaria\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sa_bl\\AppData\\Roaming\\NuGet\\NuGet.Config",

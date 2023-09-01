@@ -26,12 +26,12 @@ namespace contaBancaria.Model
         }
 
         /*Métodos Get e Set*/
-        public int GetNumero()
+        public int GetNumero()//o Método Get é usado para exibir o conteúdo, caso não queira exibir é só não criá-lo
         {
             return numero;
         }
 
-        public void SetNumero(int numero)
+        public void SetNumero(int numero)//No método Set o conteúdo pode ser alterado,
         {
             this.numero = numero;
         }
