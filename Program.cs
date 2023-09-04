@@ -79,7 +79,6 @@ namespace contaBancaria
                         titular = Console.ReadLine();
                         titular??= string.Empty;
 
-
                         do 
                         {
                             Console.Write("Digite o Tipo da Conta: ");
