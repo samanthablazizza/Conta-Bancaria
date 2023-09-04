@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace contaBancaria.Model
 {
-    public class Conta
+    public abstract class Conta //classe ABSTRATA
     {
         /*Atributos*/
         private int numero;
