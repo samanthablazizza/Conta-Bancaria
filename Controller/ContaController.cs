@@ -16,7 +16,22 @@ namespace contaBancaria.Controller
         //Métodos do CRUD
         public void Atualizar(Conta conta)
         {
-            throw new NotImplementedException();
+            var buscaconta = BuscarNaCollecion(conta.GetNumero());  
+
+            if (buscaconta != null)
+            {
+                var index = listaContas.IndexOf(buscaconta);
+
+                listaContas[index] = conta;
+
+                Console.WriteLine($"A conta {conta.GetNumero()} foi atualizada com sucesso!");
+            }
+            else
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine($"A conta {numero} não foi encontrada!");
+                Console.ResetColor();
+            }            
         }
 
         public void Cadastrar(Conta conta)
@@ -27,7 +42,20 @@ namespace contaBancaria.Controller
 
         public void Deletar(int numero)
         {
-            throw new NotImplementedException();
+            var conta = BuscarNaCollecion(numero);
+
+            if (conta is not null)
+            {
+
+                if (listaContas.Remove(conta) == true)
+                    Console.WriteLine($"A Conta {numero} foi apagada com sucesso!");
+            }
+            else
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine($"A conta {numero} não foi encontrada!");
+                Console.ResetColor();
+            }
         }
 
         public void ListarTodas()
@@ -37,12 +65,19 @@ namespace contaBancaria.Controller
                 conta.Visualizar();
             }
         }
-
         public void ProcurarPorNumero(int numero)
         {
-            throw new NotImplementedException();
-        }
+            var conta = BuscarNaCollecion(numero);
 
+            if (conta is not null)
+                conta.Visualizar();
+            else
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine($"A conta {numero} não foi encontrada!");
+                Console.ResetColor();
+            }
+        }
         //Métodos Bancários
         public void Sacar(int numero, decimal valor)
         {
@@ -61,6 +96,16 @@ namespace contaBancaria.Controller
         public int GerarNumero()
         {
             return ++numero;
+        }
+        //Método para buscar um Objeto Conta específico
+        public Conta BuscarNaCollecion(int numero)
+        {
+            foreach(var conta in listaContas)
+            {
+                if (conta.GetNumero() == numero)
+                    return conta;
+            }
+            return null;
         }
     }
 }
