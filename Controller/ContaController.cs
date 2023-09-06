@@ -33,7 +33,6 @@ namespace contaBancaria.Controller
                 Console.ResetColor();
             }            
         }
-
         public void Cadastrar(Conta conta)
         {
             listaContas.Add(conta);
@@ -57,7 +56,6 @@ namespace contaBancaria.Controller
                 Console.ResetColor();
             }
         }
-
         public void ListarTodas()
         {
             foreach (var conta in listaContas)
@@ -91,14 +89,13 @@ namespace contaBancaria.Controller
         {
             throw new NotImplementedException();
         }
-
         //Métodos Auxiliares
         public int GerarNumero()
         {
             return ++numero;
         }
         //Método para buscar um Objeto Conta específico
-        public Conta BuscarNaCollecion(int numero)
+        public Conta? BuscarNaCollecion(int numero)
         {
             foreach(var conta in listaContas)
             {
